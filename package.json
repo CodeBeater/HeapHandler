@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "name": "heaphandler",
+  "version": "1.0.0",
+  "description": "Automatically wipes variables from memory after a set period of time, with optional variable reinstantiation.",
+  "main": "lib/Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/Main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBeater/HeapHandler.git"
+  },
+  "keywords": [
+    "memory",
+    "heap",
+    "heap"
+  ],
+  "author": "Raphael de Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeBeater/HeapHandler/issues"
+  },
+  "homepage": "https://github.com/CodeBeater/HeapHandler#readme"
+}
